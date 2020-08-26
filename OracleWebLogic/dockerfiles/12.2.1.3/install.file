@@ -1,4 +1,4 @@
-# Copyright (c) 2014-2015 Oracle and/or its affiliates. All rights reserved.
+# Copyright (c) 2014-2018 Oracle and/or its affiliates. All rights reserved.
 [ENGINE]
 
 #DO NOT CHANGE THIS.
@@ -6,5 +6,7 @@ Response File Version=1.0.0.0.0
 
 [GENERIC]
 
+INSTALL_TYPE=WebLogic Server
+SOFTWARE ONLY TYPE=true
 DECLINE_SECURITY_UPDATES=true
 SECURITY_UPDATES_VIA_MYORACLESUPPORT=false

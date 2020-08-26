@@ -6,7 +6,7 @@
 # 
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 # 
-# Copyright (c) 2014-2016 Oracle and/or its affiliates. All rights reserved.
+# Copyright (c) 2014, 2019 Oracle and/or its affiliates. All rights reserved.
 # 
 
 usage() {
@@ -25,7 +25,7 @@ Parameters:
 
 LICENSE UPL 1.0
 
-Copyright (c) 2014-2016 Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2014, 2019 Oracle and/or its affiliates. All rights reserved.
 
 EOF
 exit 0
@@ -34,7 +34,7 @@ exit 0
 # Parameters
 QUICKINSTALL=0
 STANDALONE=0
-VERSION="12.2.1.0.0"
+VERSION="12.2.1.3.0"
 while getopts "hmv:qs" optname; do
   case "$optname" in
     "h")
@@ -69,9 +69,9 @@ else
 # If neither -s or -q were specified then determine which image we are building
 # by which installer is present. If both the Standard and Quick installers are
 # present then the Standard installer will be used.
-  if [ -f "fmw_${VERSION}_coherence_Disk1_1of1.zip" ]; then
+  if [ -f fmw_*_coherence_Disk1_1of1.zip ]; then
     DISTRIBUTION="standalone"
-  elif [ -f "fmw_${VERSION}_coherence_quick_Disk1_1of1.zip" ]; then
+  elif [ -f fmw_*_coherence_quick_Disk1_1of1.zip ]; then
     DISTRIBUTION="quickinstall"
   else
     echo "A valid distribution type argument has not been provided and no installer file can be found."

@@ -1,15 +1,23 @@
 # The last matching pattern has the most precedence.
-*                         @Djelibeybi
-/OracleDatabase/          @gvenzl
-/OracleRestDataServices/  @gvenzl
-/OracleCoherence/         @thegridman
-/OracleJava/              @aureliogrb
-/OracleWebLogic/          @mriccell
-/OracleHTTPServer/        @prkishor
-/OracleInstantClient/     @gvenzl
-/OracleFMWInfrastructure/ @mriccell
-/OracleTuxedo/            @toddinpal
+*                         @Djelibeybi @gvenzl @mriccell
 /ContainerCloud/          @mikeraab
-/OracleGoldenGate/        @sbalousek
+/GlassFish/               @arindam-bandyopadhyay
+/GraalVM/                 @mzachh
+/NoSQL/                   @anandchandak
 /OracleBI/                @sjvp
-/OracleSOASuite/          @prashanthnagaraja
+/OracleCoherence/         @thegridman
+/OracleDataIntegrator/    @mavaishn
+/OracleDatabase/SingleInstance/          @gvenzl
+/OracleDatabase/RAC/      @psaini79
+/OracleEDQ/               @subhashsutrave
+/OracleFMWInfrastructure/ @mriccell
+/OracleGoldenGate/        @sbalousek
+/OracleHTTPServer/        @Prabhat-Kishore
+/OracleInstantClient/     @cjbj
+/OracleJava/              @aureliogrb @Djelibeybi
+/OracleLinuxDevelopers/   @Djelibeybi
+/OracleRestDataServices/  @gvenzl
+/OracleTuxedo/            @toddinpal
+/OracleWebCenterSites/    @prshshuk
+/OracleWebLogic/          @mriccell
+/OracleSOASuite/          @rdas0405
